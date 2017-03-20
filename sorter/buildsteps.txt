@@ -1,0 +1,12 @@
+go build alg/bubblesort/
+go test alg/bubblesort/
+
+go build alg/qsort/
+go test alg/qsort/
+
+go install alg/bubblesort/
+go install alg/qsort/
+
+go build sorter
+go install sorter
+
